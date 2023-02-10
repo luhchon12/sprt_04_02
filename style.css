@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}     
+
+.text {
+    font-size: 30px;
+}
+
+body {
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(189, 39, 39);
+    margin: 0;
+    position: relative;
+    /* align-items: center; */
+}
+
+.time {
+    font-size: 200px;
+    font-weight: 0;
+    -webkit-text-stroke: 5px white;
+    height: 250px;
+}
+
+.greeting {
+    font-size: 100px;
+    -webkit-text-stroke: 2px white;
+}
+
+.todo {
+    font-size: 50px;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+}
+
+.author {
+    font-size: 25px;
+    font-style: italic;
+    -webkit-text-stroke: 1px white;
+}
+
+.content {
+    -webkit-text-stroke: 0.5px white;
+
+}
+
+.main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-top: 2px solid white; */
+}
+@media(max-width: 650px) {
+    
+    .main {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    body {
+        padding-top: 50px;
+    }
+    .greeting {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 100px;
+        padding-bottom: 20px;
+    }
+    
+    .todo {
+        line-height: 60px;
+    }
+    .quote {
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 0;
+    }
+
+    .time {
+        height: 250px;
+    }
+
+    /* .author {
+        width: 100vw;
+        height: 700vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid white;                
+    } */
+
+    /* .content {
+        width: 100vw;
+        height: 900vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid white;
+        
+    } */
+ }
